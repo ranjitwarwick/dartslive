@@ -1,0 +1,169 @@
+
+*
+{
+ font-family: Arial;
+}
+
+#wrapper
+{
+ border: 1px solid red;
+}
+
+#seq_div,#back_div,#players_div,#reset_div,#save_div
+{
+ border: 0px solid;
+ position:relative;
+}
+
+#seq_div
+{
+ background-color:#27769b;
+}
+
+#seqTextOne
+{
+ background-color:#ffdf00;
+ text-align:center;
+ height:22%;
+ width:100%;
+}
+ 
+#nextThrowerId
+{
+ height:50%;
+ width:100%;
+}
+
+#nextThrowerId, #playerNameOne, #p1NameDiv,#playerNameTwo, #p2NameDiv, #playerNameThree, #p3NameDiv
+{
+/*
+overflow-x: hidden;
+overflow-y: hidden;
+
+overflow: scroll;*/
+}
+
+#variousButtons
+{
+ height:29%;
+ width:100%;
+}
+
+#homePageButton
+{
+float:left;
+}
+
+#homePageButton,#resetPage2Button
+{
+ height:95%;
+ white-space: nowrap;
+}
+
+#nextThrower
+{
+ text-align:center;
+ color:lime;
+}
+
+
+#variousButtons{}
+
+#hiddenPlayerSequence,#hiddenNumberOfPlayers,#hiddenGameToPlay
+{
+ display:none; 
+}
+
+#resetPage2Button
+{
+ float:right;
+}
+
+#playerNameOne,#p1ThrowsSoFar,#p1ScoreInput,#buttonPlayer1,#p1Remain {position:relative;}
+#playerNameTwo,#p2ThrowsSoFar,#p2ScoreInput,#buttonPlayer2,#p2Remain {position:relative;}
+#playerNameThree,#p3ThrowsSoFar,#p3ScoreInput,#buttonPlayer3,#p3Remain {position:relative;}
+
+
+
+#p1_input_div,#p2_input_div,#p3_input_div
+{
+ border: 0px solid red;
+ position:absolute;
+ background-color:#27769b;
+ color:gold;
+}
+
+#p1_history_div,#p2_history_div,#p3_history_div
+{
+ border: 0px solid green;
+ position:absolute;
+}
+
+.playerStatsTable td, .playerStatsTable th
+{
+ border: 0px solid black;
+ text-align:center;
+ color:yellow;
+ background-color:#10427b;
+}
+
+
+#p1NameDiv,#p1ThrowsDiv,#p1ButtonDiv,#p1NewScoreDiv,#p1RemainDiv,#p2NameDiv,#p2ThrowsDiv,#p2ButtonDiv,#p2NewScoreDiv,#p2RemainDiv,#p3NameDiv,#p3ThrowsDiv,#p3ButtonDiv,#p3NewScoreDiv,#p3RemainDiv
+{
+ border-left: 1px solid black;
+ float:left;
+ text-align:center;
+}
+
+
+
+.textClassDiv
+{
+ border: 1px solid green;
+ /*height:24%;*/
+ text-align: center;
+}
+
+.inputClassDiv
+{
+ border: 0px solid red;
+ /*height:73%;*/
+ position:relative;
+ text-align:center;
+}
+
+.centerTextss
+{
+ top:38%;
+ left:38%;
+ position:absolute;
+}
+
+.centerText2ss
+{
+ top:38%;
+ position:relative;
+ right:-50%;
+}
+
+.scoreInputField
+{
+ /*width:60px;*/
+}
+
+* {
+       padding: 0;
+       margin: 0;
+   }
+
+#p1r0c0,#p1r0c1,#p1r0c2,#p1r0c3,#p2r0c0,#p2r0c1,#p2r0c2,#p2r0c3,#p3r0c0,#p3r0c1,#p3r0c2,#p3r0c3
+{
+ /*width:120px;*/
+}
+
+.nav_button66
+{
+ width:33px;
+ height:20px;
+}
+
