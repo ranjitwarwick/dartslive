@@ -1119,7 +1119,8 @@ function position_div(divName,xPosScale,yPosScale,browser_width,browser_height)
 
 function open_home_page()
 {
-  window.open("darts-1.php","_self","","");
+  //window.open("darts-1.php","_self","","");
+  window.open("index.php","_self","",""); 
 }
 
 
